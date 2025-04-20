@@ -127,7 +127,7 @@ if __name__ == '__main__':
 
                     if("send" and "message" in my_task):
                         phonelist = {
-                            "rohan": "+917741915787", "father": "+919822771729", 'darshan': "+919284855124"}
+                            "rohan": "+91123456789", "father": "+91123456789", 'darshan': "+9112345678"} #add valid phone number
                         speak("to whom you want to send message")
                         inp = audio_input().lower()
                         if (inp in phonelist):
